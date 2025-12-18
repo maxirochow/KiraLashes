@@ -3,11 +3,11 @@ import './Booking.css'
 
 const services = [
   { id: 1, name: 'Lifting de Pestañas', price: '$12.000' },
-  { id: 2, name: 'Laminado de Cejas', price: '$8.000' },
+  { id: 2, name: 'Laminado de Cejas', price: '$5.000' },
   { id: 3, name: 'Lifting + Laminado', price: '$15.000' },
-  { id: 4, name: 'Lifting + Tinte', price: '$16.000' },
+  { id: 4, name: 'Lifting + Tinte', price: '$18.000' },
   { id: 5, name: 'Lifting + Laminado + Tinte', price: '$20.000' },
-  { id: 6, name: 'Extensiones Clásicas', price: '$25.000' }
+  { id: 6, name: 'Extensiones Clásicas con Efectos', price: '$25.000' }
 ]
 
 function Booking() {
@@ -48,7 +48,7 @@ ${formData.notes ? `📝 *Notas:* ${formData.notes}` : ''}
 ¡Gracias! ✨`
 
     // Abrir WhatsApp con el mensaje
-    const whatsappUrl = `https://wa.me/56974726455?text=${encodeURIComponent(message)}`
+    const whatsappUrl = `https://wa.me/56974724453?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, '_blank')
     
     setSubmitted(true)
@@ -220,7 +220,7 @@ ${formData.notes ? `📝 *Notas:* ${formData.notes}` : ''}
 
             <div className="info-card">
               <h3>📱 Contacto Directo</h3>
-              <p>+56 9 7472 6455</p>
+              <p>+56 9 7472 4453</p>
               <a 
                 href="https://instagram.com/kiraa._lashes" 
                 target="_blank" 

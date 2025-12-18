@@ -13,7 +13,7 @@ const services = [
     id: 2,
     name: 'Laminado de Cejas',
     description: 'Dale forma y dirección a tus cejas para un look más definido y natural.',
-    price: '$8.000',
+    price: '$5.000',
     duration: '30 min',
     icon: '🪄'
   },
@@ -29,7 +29,7 @@ const services = [
     id: 4,
     name: 'Lifting + Tinte',
     description: 'Curvado de pestañas más tinte para un look más intenso y definido.',
-    price: '$16.000',
+    price: '$18.000',
     duration: '1 hr',
     icon: '🌟'
   },
@@ -43,7 +43,7 @@ const services = [
   },
   {
     id: 6,
-    name: 'Extensiones Clásicas',
+    name: 'Extensiones Clásicas con Efectos',
     description: 'Extensiones pelo a pelo para un look natural y elegante con más volumen.',
     price: '$25.000',
     duration: '2 hr',
@@ -89,7 +89,7 @@ function Services() {
 
         <div className="services-note">
           <p>💕 Todos los servicios incluyen atención a domicilio en Villarrica</p>
-          <p>📱 ¿Tienes dudas? Escríbenos al +56 9 7472 6455</p>
+          <p>📱 ¿Tienes dudas? Escríbenos al +56 9 7472 4453</p>
         </div>
       </div>
     </section>

@@ -10,6 +10,11 @@ function Footer() {
             <span className="brand-accent">Lashes</span>
           </h3>
           <p>Realzando tu belleza natural ✨</p>
+          <p className="footer-subtitle">Lifting y Extensiones</p>
+        </div>
+
+        <div className="footer-image">
+          <img src="/images/lista-precios.jpg" alt="Lista de precios Kira Lashes" />
         </div>
 
         <div className="footer-links">
@@ -22,11 +27,11 @@ function Footer() {
             📸 @kiraa._lashes
           </a>
           <a 
-            href="https://wa.me/56974726455" 
+            href="https://wa.me/56974724453" 
             target="_blank" 
             rel="noopener noreferrer"
           >
-            📱 +56 9 7472 6455
+            📱 +56 9 7472 4453
           </a>
         </div>
 

@@ -32,7 +32,7 @@ function Hero() {
             </div>
             <div className="feature">
               <span className="feature-icon">📱</span>
-              <span>+56 9 7472 6455</span>
+              <span>+56 9 7472 4453</span>
             </div>
           </div>
           <div className="hero-buttons">
