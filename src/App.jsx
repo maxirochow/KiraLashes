@@ -1,7 +1,6 @@
 import Navbar from './components/Navbar'
 import Hero from './pages/Hero'
 import Services from './pages/Services'
-import Gallery from './pages/Gallery'
 import Booking from './pages/Booking'
 import Footer from './components/Footer'
 import WhatsAppButton from './components/WhatsAppButton'
@@ -17,7 +16,6 @@ function App() {
       <main>
         <Hero />
         <Services />
-        <Gallery />
         <Booking />
       </main>
       <Footer />
