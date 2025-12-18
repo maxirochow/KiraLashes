@@ -35,7 +35,7 @@ function Gallery() {
           <p>Resultados reales en clientas satisfechas ✨</p>
         </div>
 
-        <div className="gallery-filters animate-on-scroll">
+        <div className="gallery-filters">
           <button 
             className={`filter-btn ${filter === 'todos' ? 'active' : ''}`}
             onClick={() => setFilter('todos')}
