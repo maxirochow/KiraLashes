@@ -3,12 +3,10 @@ import './Gallery.css'
 
 // Las imágenes se agregarán después en public/images/gallery/
 const galleryImages = [
-  { id: 1, src: '/images/gallery/trabajo1.jpg', alt: 'Lifting de pestañas - Antes y después', category: 'lifting' },
-  { id: 2, src: '/images/gallery/trabajo2.jpg', alt: 'Laminado de cejas', category: 'laminado' },
-  { id: 3, src: '/images/gallery/trabajo3.jpg', alt: 'Extensiones clásicas', category: 'extensiones' },
-  { id: 4, src: '/images/gallery/trabajo4.jpg', alt: 'Lifting de pestañas', category: 'lifting' },
-  { id: 5, src: '/images/gallery/trabajo5.jpg', alt: 'Resultado natural', category: 'lifting' },
-  { id: 6, src: '/images/gallery/trabajo6.jpg', alt: 'Laminado de cejas', category: 'laminado' },
+  { id: 1, src: '/images/gallery/trabajo1.png', alt: 'Lifting de pestañas - Resultado', category: 'lifting' },
+  { id: 2, src: '/images/gallery/trabajo2.png', alt: 'Laminado de cejas', category: 'laminado' },
+  { id: 3, src: '/images/gallery/trabajo3.png', alt: 'Lifting de pestañas', category: 'lifting' },
+  { id: 4, src: '/images/gallery/trabajo4.png', alt: 'Extensiones clásicas', category: 'extensiones' },
 ]
 
 function Gallery() {
