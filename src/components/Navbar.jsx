@@ -32,6 +32,9 @@ function Navbar() {
             <button onClick={() => scrollToSection('servicios')}>Servicios</button>
           </li>
           <li>
+            <button onClick={() => scrollToSection('galeria')}>Galería</button>
+          </li>
+          <li>
             <button onClick={() => scrollToSection('agendar')}>Agendar</button>
           </li>
         </ul>

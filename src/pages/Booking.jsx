@@ -93,13 +93,13 @@ ${formData.notes ? `📝 *Notas:* ${formData.notes}` : ''}
   return (
     <section id="agendar" className="booking">
       <div className="booking-container">
-        <div className="booking-header">
+        <div className="booking-header animate-on-scroll">
           <h2>Agenda tu Cita</h2>
           <p>Completa el formulario y te contactaremos para confirmar tu hora</p>
         </div>
 
         <div className="booking-content">
-          <form className="booking-form" onSubmit={handleSubmit}>
+          <form className="booking-form animate-on-scroll" onSubmit={handleSubmit}>
             <div className="form-group">
               <label htmlFor="name">Nombre completo *</label>
               <input
@@ -211,7 +211,7 @@ ${formData.notes ? `📝 *Notas:* ${formData.notes}` : ''}
             </button>
           </form>
 
-          <div className="booking-info">
+          <div className="booking-info animate-on-scroll">
             <div className="info-card">
               <h3>📍 Zona de Atención</h3>
               <p>Villarrica y alrededores</p>

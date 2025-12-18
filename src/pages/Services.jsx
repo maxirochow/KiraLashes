@@ -62,14 +62,14 @@ function Services() {
   return (
     <section id="servicios" className="services">
       <div className="services-container">
-        <div className="services-header">
+        <div className="services-header animate-on-scroll">
           <h2>Nuestros Servicios</h2>
           <p>Tratamientos profesionales para realzar tu belleza natural</p>
         </div>
 
         <div className="services-grid">
           {services.map((service) => (
-            <div key={service.id} className="service-card">
+            <div key={service.id} className="service-card animate-on-scroll">
               <div className="service-icon">{service.icon}</div>
               <h3>{service.name}</h3>
               <p className="service-description">{service.description}</p>
@@ -87,7 +87,7 @@ function Services() {
           ))}
         </div>
 
-        <div className="services-note">
+        <div className="services-note animate-on-scroll">
           <p>💕 Todos los servicios incluyen atención a domicilio en Villarrica</p>
           <p>📱 ¿Tienes dudas? Escríbenos al +56 9 7472 4453</p>
         </div>
